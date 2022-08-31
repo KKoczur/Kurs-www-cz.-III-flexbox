@@ -533,7 +533,7 @@ body {
 	}
 
 	&__box-link {
-		padding: 0 3em;
+		padding: 0.3em;
 		font-size: 3.6rem;
 		color: $pure-white;
 		text-decoration: none;
@@ -701,6 +701,11 @@ body {
 
 		&__box-list-item {
 			margin-bottom: 1em;
+
+			a {
+				color: $light-white;
+				text-decoration: none;
+			}
 		}
 	}
 }
